@@ -14,7 +14,6 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="periksakesehatan.PeriksaKesehatanController">
    <children>
       <Pane layoutX="10.0" layoutY="10.0" prefHeight="530.0" prefWidth="380.0" style="-fx-background-color: #fff;">
@@ -88,7 +87,7 @@
                         <Font size="14.0" />
                      </font>
                   </JFXTextField>
-                  <JFXTextField fx:id="fieldtinggi" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <JFXTextField fx:id="fieldtinggi" maxWidth="129.0" minWidth="128.0" prefHeight="32.0" prefWidth="128.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Arial" size="14.0" />
                      </font>
@@ -132,6 +131,11 @@
                </font>
             </Label>
             <Label layoutX="241.0" layoutY="328.0" text="Kg" textFill="WHITE">
+               <font>
+                  <Font name="BebasNeueBold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="280.0" layoutY="111.0" text="CM">
                <font>
                   <Font name="BebasNeueBold" size="24.0" />
                </font>
